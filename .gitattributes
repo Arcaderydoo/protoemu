@@ -1,0 +1,5 @@
+# Keep LF line endings everywhere, even if files are edited from Windows.
+# Makefiles, shell scripts and Python break or misbehave with CRLF in WSL/Linux CI.
+* text=auto eol=lf
+*.png binary
+*.gds binary
